@@ -28,6 +28,7 @@ using SnowplowTracker.Payloads.Contexts;
 using SnowplowTracker.Events;
 using SnowplowTracker.Storage;
 using SnowplowTracker.Enums;
+using UnityEngine;
 
 namespace SnowplowTracker {
 	public class Tracker {
@@ -176,15 +177,38 @@ namespace SnowplowTracker {
 			if (subject != null) {
 				payload.AddDict (subject.GetPayload().GetDictionary());
 			}
+			
+			List<IContext> newContexts = new List<IContext>();
+			bool sessionExists = false;
+
+			if (contexts != null)
+			{
+				for (int i = 0; i < contexts.Count; i++)
+				{
+					var c = contexts[i];
+					if (c.GetSchema().Equals("iglu:com.snowplowanalytics.snowplow/client_session/jsonschema/1-0-1"))
+					{
+						if (!sessionExists)
+						{
+							sessionExists = true;
+							newContexts.Add(c);
+						}
+					}
+					else
+					{
+						newContexts.Add(c);
+					}
+				}
+			}
 
 			// Add the session context if available
-			if (session != null) {
-				contexts.Add (session.GetSessionContext(eventId));
+			if (session != null && !sessionExists) {
+				newContexts.Add (session.GetSessionContext(eventId));
 			}
 
 			// Build the final context and add it to the payload
-			if (contexts != null && contexts.Count > 0) {
-				SelfDescribingJson envelope = GetFinalContext(contexts);
+			if (newContexts.Count > 0) {
+				SelfDescribingJson envelope = GetFinalContext(newContexts);
 				payload.AddJson (envelope.GetDictionary(), this.base64Encoded, Constants.CONTEXT_ENCODED, Constants.CONTEXT);
 			}
 

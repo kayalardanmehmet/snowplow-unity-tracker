@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7dbb2b7f-51ba-4969-a2b1-46647ed7c416" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SnowplowTracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SnowplowTracker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnowplowTracker/Session.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SnowplowTracker/Session.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnowplowTracker/Utils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SnowplowTracker/Utils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnowplowTracker/Tracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SnowplowTracker/Tracker.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,87 +14,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SnowplowTracker/Storage/EventStore.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
-              <folding>
-                <marker date="1552044099354" expanded="true" signature="0:874" ph="/* EventStore.cs ... */" />
-                <marker date="1552044099354" expanded="false" signature="882:1066" ph="..." />
-                <marker date="1552044099354" expanded="true" signature="1101:14285" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="1131:14283" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="2542:2680" ph="/// Initializes a new instance of the &lt;see cref=&quot;SnowplowTracker.Storage.EventStore&quot;/&gt; class. ... " />
-                <marker date="1552044099354" expanded="true" signature="2708:2913" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="2757:2883" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="2923:3101" ph="/// Initializes a new instance of the &lt;see cref=&quot;SnowplowTracker.Storage.EventStore&quot;/&gt; class. ... " />
-                <marker date="1552044099354" expanded="true" signature="3148:3377" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="3211:3285" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="3387:3498" ph="/// Opens a connection and create's the events tables if required. ... " />
-                <marker date="1552044099354" expanded="true" signature="3525:4554" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="3570:4544" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="3760:4530" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="4564:4667" ph="/// Closes the database connection if is currently active. ... " />
-                <marker date="1552044099354" expanded="true" signature="4695:4892" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="4739:4882" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="4937:5171" ph="/// Adds an event payload to the database. ... " />
-                <marker date="1552044099354" expanded="true" signature="5224:6353" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="5301:6248" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="5433:6234" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="5526:6216" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="6363:6574" ph="/// Deletes the event. ... " />
-                <marker date="1552044099354" expanded="true" signature="6617:7151" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="6694:7114" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="6779:7100" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="7161:7400" ph="/// Deletes all events from an array of row ids. ... " />
-                <marker date="1552044099354" expanded="true" signature="7451:8411" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="7528:8374" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="7613:8360" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="8421:8584" ph="/// Deletes all events. ... " />
-                <marker date="1552044099354" expanded="true" signature="8622:9132" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="8699:9095" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="8784:9081" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="9142:9280" ph="/// Gets the count of events in the database. ... " />
-                <marker date="1552044099354" expanded="true" signature="9316:10458" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="9388:10422" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="9473:10408" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="9613:10390" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="9679:10368" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="9755:10342" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="9925:10160" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="10197:10312" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="10468:10650" ph="/// Gets an event at a specific row id ... " />
-                <marker date="1552044099354" expanded="true" signature="10694:10950" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="10806:10866" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="10883:10940" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="10960:11088" ph="/// Gets all events in the database ... " />
-                <marker date="1552044099354" expanded="true" signature="11133:11199" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="11209:11442" ph="/// Gets a descending range of events from the database. ... " />
-                <marker date="1552044099354" expanded="true" signature="11501:11577" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="11587:11795" ph="/// Queries the database. ... " />
-                <marker date="1552044099354" expanded="true" signature="11853:13527" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="11953:13492" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="11987:13319" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="12080:13301" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="12233:13279" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="12391:13253" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="12475:13223" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="12655:13189" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="13355:13478" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="13561:13760" ph="/// Determines whether this database connection is open. ... " />
-                <marker date="1552044099354" expanded="true" signature="13797:14277" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="13845:13961" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="14038:14193" ph="{...}" />
-                <marker date="1552044099354" expanded="true" signature="14210:14267" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SnowplowTracker/Session.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="55" column="62" lean-forward="true" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
+            <state relative-caret-position="283">
+              <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
               <folding>
                 <marker date="1552050108224" expanded="true" signature="0:863" ph="/* Session.cs ... */" />
                 <marker date="1552050108224" expanded="false" signature="871:1038" ph="..." />
@@ -149,66 +71,434 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/ReferrerTest/Assets/At.cs">
+        <entry file="file://$PROJECT_DIR$/SnowplowTracker/Emitters/AsyncEmitter.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+            <state relative-caret-position="252">
+              <caret line="215" column="21" lean-forward="true" selection-start-line="215" selection-start-column="21" selection-end-line="215" selection-end-column="21" />
               <folding>
-                <element signature="e#0#78#0" expanded="true" />
+                <marker date="1561130029417" expanded="true" signature="0:877" ph="/* AsyncEmitter.cs ... */" />
+                <marker date="1561130029417" expanded="true" signature="885:1243" ph="..." />
+                <marker date="1561130029417" expanded="true" signature="1280:8544" ph="{...}" />
+                <marker date="1561130029417" expanded="true" signature="1327:8542" ph="{...}" />
+                <marker date="1561130029417" expanded="true" signature="1696:2260" ph="/// Initializes a new instance of the &lt;see cref=&quot;SnowplowTracker.Emitter&quot;/&gt; class. ... " />
+                <marker date="1561130029417" expanded="true" signature="2481:2918" ph="{...}" />
+                <marker date="1561130029417" expanded="true" signature="2928:3638" ph="/// Initializes a new instance of the &lt;see cref=&quot;SnowplowTracker.Emitter&quot;/&gt; class. ... " />
+                <marker date="1561130029417" expanded="true" signature="3894:4470" ph="{...}" />
+                <marker date="1561130029417" expanded="true" signature="4480:4618" ph="/// Adds an event payload to the database. ... " />
+                <marker date="1561130029417" expanded="true" signature="4676:4716" ph="{...}" />
+                <marker date="1561130029417" expanded="true" signature="4720:5108" ph="/// Starts the Emitter and the Event Consumer. ... " />
+                <marker date="1561130029417" expanded="true" signature="5140:5460" ph="{...}" />
+                <marker date="1561130029417" expanded="true" signature="5159:5456" ph="{...}" />
+                <marker date="1561130029417" expanded="true" signature="5466:5544" ph="/// Stops the Emitter and the Event Consumer. ... " />
+                <marker date="1561130029417" expanded="true" signature="5575:5809" ph="{...}" />
+                <marker date="1561130029417" expanded="true" signature="5593:5805" ph="{...}" />
+                <marker date="1561130029417" expanded="true" signature="5843:5947" ph="/// Consumes events from the event queue and adds them to the database. ... " />
+                <marker date="1561130029417" expanded="true" signature="5979:6396" ph="{...}" />
+                <marker date="1561130029417" expanded="true" signature="6057:6392" ph="{...}" />
+                <marker date="1561130029417" expanded="true" signature="6184:6264" ph="{...}" />
+                <marker date="1561130029417" expanded="true" signature="6401:6561" ph="/// Performs and orchestrates all sending of events from the database ... " />
+                <marker date="1561130029417" expanded="true" signature="6588:8284" ph="{...}" />
+                <marker date="1561130029417" expanded="true" signature="6658:8280" ph="{...}" />
+                <marker date="1561130029417" expanded="true" signature="6765:6803" ph="{...}" />
+                <marker date="1561130029417" expanded="true" signature="6878:6952" ph="{...}" />
+                <marker date="1561130029417" expanded="true" signature="7030:7159" ph="{...}" />
+                <marker date="1561130029417" expanded="true" signature="7207:8275" ph="{...}" />
+                <marker date="1561130029417" expanded="true" signature="7503:7687" ph="{...}" />
+                <marker date="1561130029417" expanded="true" signature="7531:7626" ph="{...}" />
+                <marker date="1561130029417" expanded="true" signature="7715:7847" ph="{...}" />
+                <marker date="1561130029417" expanded="true" signature="8039:8175" ph="{...}" />
+                <marker date="1561130029417" expanded="true" signature="8306:8474" ph="/// Gets whether the emitter is currently sending. ... " />
+                <marker date="1561130029417" expanded="true" signature="8510:8539" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SnowplowTracker/Tracker.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="206" column="13" selection-start-line="206" selection-start-column="13" selection-end-line="206" selection-end-column="13" />
+              <folding>
+                <marker date="1561130231239" expanded="true" signature="0:863" ph="/* Tracker.cs ... */" />
+                <marker date="1561130231239" expanded="false" signature="871:1157" ph="..." />
+                <marker date="1561130231239" expanded="true" signature="1204:11243" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="1228:11241" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="1510:2037" ph="/// Initializes a new instance of the &lt;see cref=&quot;SnowplowTracker.Tracker&quot;/&gt; class. ... " />
+                <marker date="1561130231239" expanded="true" signature="2238:2783" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="2712:2743" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="2821:3075" ph="/// Starts all background services for processing events: ... " />
+                <marker date="1561130231239" expanded="true" signature="3111:3221" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="3183:3217" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="3225:3462" ph="/// Stops all event tracking and background services: ... " />
+                <marker date="1561130231239" expanded="true" signature="3497:3606" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="3569:3602" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="3635:3856" ph="/// Track the specified event. ... " />
+                <marker date="1561130231239" expanded="true" signature="3894:4123" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="3920:3938" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="3959:3994" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="4127:4232" ph="/// Processes the event. ... " />
+                <marker date="1561130231239" expanded="true" signature="4278:5764" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="4483:4572" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="4621:5156" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="4866:5151" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="5197:5388" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="5454:5760" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="5768:5979" ph="/// Adds the tracker payload to the emitter. ... " />
+                <marker date="1561130231239" expanded="true" signature="6078:7557" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="6417:6483" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="6598:6955" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="6648:6950" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="6782:6894" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="6815:6887" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="6904:6944" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="7042:7106" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="7194:7378" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="7561:7752" ph="/// Gets the final context. ... " />
+                <marker date="1561130231239" expanded="true" signature="7823:8102" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="7958:8022" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="8124:8336" ph="/// Sets the emitter. NOTE this is a blocking function as the emitter will not be replaced until it is no longer ... " />
+                <marker date="1561130231239" expanded="true" signature="8380:8696" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="8406:8692" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="8551:8581" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="8700:8799" ph="/// Sets the subject. ... " />
+                <marker date="1561130231239" expanded="true" signature="8842:8874" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="8878:8977" ph="/// Sets the session. ... " />
+                <marker date="1561130231239" expanded="true" signature="9020:9120" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="9051:9089" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="9124:9252" ph="/// Sets the tracker namespace. ... " />
+                <marker date="1561130231239" expanded="true" signature="9312:9362" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="9366:9477" ph="/// Sets the app identifier. ... " />
+                <marker date="1561130231239" expanded="true" signature="9515:9543" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="9547:9649" ph="/// Sets the platform. ... " />
+                <marker date="1561130231239" expanded="true" signature="9702:9736" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="9740:9887" ph="/// Sets the base64 encoded truth. ... " />
+                <marker date="1561130231239" expanded="true" signature="9939:9983" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="10005:10097" ph="/// Gets the emitter. ... " />
+                <marker date="1561130231239" expanded="true" signature="10129:10158" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="10162:10261" ph="/// Gets the subject object. ... " />
+                <marker date="1561130231239" expanded="true" signature="10292:10321" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="10325:10424" ph="/// Gets the session object. ... " />
+                <marker date="1561130231239" expanded="true" signature="10455:10484" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="10488:10600" ph="/// Gets the tracker namespace. ... " />
+                <marker date="1561130231239" expanded="true" signature="10639:10677" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="10681:10787" ph="/// Gets the app identifier. ... " />
+                <marker date="1561130231239" expanded="true" signature="10815:10842" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="10846:10940" ph="/// Gets the platform. ... " />
+                <marker date="1561130231239" expanded="true" signature="10980:11010" ph="{...}" />
+                <marker date="1561130231239" expanded="true" signature="11014:11169" ph="/// Gets the base64 encoded value. ... " />
+                <marker date="1561130231239" expanded="true" signature="11203:11238" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SnowplowTracker/Utils.cs">
+        <entry file="file://$PROJECT_DIR$/SnowplowTracker/Payloads/AbstractPayload.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
-              <caret line="159" column="28" lean-forward="true" selection-start-line="159" selection-start-column="28" selection-end-line="159" selection-end-column="28" />
+            <state relative-caret-position="77">
+              <caret line="26" column="52" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="52" />
               <folding>
-                <marker date="1552050111320" expanded="true" signature="0:861" ph="/* Utils.cs ... */" />
-                <marker date="1552050111320" expanded="false" signature="869:1042" ph="..." />
-                <marker date="1552050111320" expanded="true" signature="1070:6909" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="1092:6907" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="1097:1246" ph="/// Returns the current time since the UNIX Epoch ... " />
-                <marker date="1552050111320" expanded="true" signature="1283:1376" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="1380:1490" ph="/// Returns a newly generated GUID string ... " />
-                <marker date="1552050111320" expanded="true" signature="1524:1568" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="1572:1713" ph="/// Returns a dictionary converted to a JSON String ... " />
-                <marker date="1552050111320" expanded="true" signature="1772:1937" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="1839:1915" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="1941:2114" ph="/// Gets the length of the UTF8 String. ... " />
-                <marker date="1552050111320" expanded="true" signature="2162:2223" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="2227:2331" ph="/// Base64 encodes a string ... " />
-                <marker date="1552050111320" expanded="true" signature="2397:2518" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="2522:2736" ph="/// Converts an event from a dictionary to a querystring ... " />
-                <marker date="1552050111320" expanded="true" signature="2810:3144" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="2926:3063" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="3148:3334" ph="/// Strings to bytes. ... " />
-                <marker date="1552050111320" expanded="true" signature="3384:3440" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="3444:3577" ph="/// Serialize the specified dictionary. ... " />
-                <marker date="1552050111320" expanded="true" signature="3654:3968" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="3663:3847" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="3868:3964" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="3974:4107" ph="/// Deserialize the specified bytes. ... " />
-                <marker date="1552050111320" expanded="true" signature="4187:4511" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="4196:4387" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="4408:4507" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="4517:4798" ph="/// Determines whether the request was successful against the specified code. ... " />
-                <marker date="1552050111320" expanded="true" signature="4850:4892" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="4896:5142" ph="/// Checks the argument providied and will throw an exception if it fails. ... " />
-                <marker date="1552050111320" expanded="true" signature="5209:5288" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="5229:5284" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="5292:5546" ph="/// Writes the dictionary to file. ... " />
-                <marker date="1552050111320" expanded="true" signature="5642:5896" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="5651:5739" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="5760:5892" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="5900:6058" ph="/// Reads the dictionary from file. ... " />
-                <marker date="1552050111320" expanded="true" signature="6138:6398" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="6147:6240" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="6261:6394" ph="{...}" />
-                <marker date="1552050111320" expanded="true" signature="6402:6774" ph="/// Determines if is time in range the specified startTime checkTime range. ... " />
-                <marker date="1552050111320" expanded="true" signature="6854:6904" ph="{...}" />
+                <marker date="1552044099350" expanded="true" signature="0:880" ph="/* AbstractPayload.cs ... */" />
+                <marker date="1552044099350" expanded="false" signature="888:929" ph="..." />
+                <marker date="1552044099350" expanded="true" signature="966:1761" ph="{...}" />
+                <marker date="1552044099350" expanded="true" signature="1018:1759" ph="{...}" />
+                <marker date="1552044099350" expanded="true" signature="1107:1219" ph="/// Gets the dictionary within the Payload ... " />
+                <marker date="1552044099350" expanded="true" signature="1272:1296" ph="{...}" />
+                <marker date="1552044099350" expanded="true" signature="1300:1438" ph="/// Gets the byte size of the key-value pairs in the payload ... " />
+                <marker date="1552044099350" expanded="true" signature="1467:1517" ph="{...}" />
+                <marker date="1552044099350" expanded="true" signature="1521:1670" ph="/// Returns a JSON string representing the payload. ... " />
+                <marker date="1552044099350" expanded="true" signature="1707:1756" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SnowplowTracker/Storage/EventStore.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="140" column="44" selection-start-line="140" selection-start-column="44" selection-end-line="140" selection-end-column="44" />
+              <folding>
+                <marker date="1561045453263" expanded="true" signature="0:874" ph="/* EventStore.cs ... */" />
+                <marker date="1561045453263" expanded="false" signature="882:1066" ph="..." />
+                <marker date="1561045453263" expanded="true" signature="1101:14285" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="1131:14283" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="2542:2680" ph="/// Initializes a new instance of the &lt;see cref=&quot;SnowplowTracker.Storage.EventStore&quot;/&gt; class. ... " />
+                <marker date="1561045453263" expanded="true" signature="2708:2913" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="2757:2883" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="2923:3101" ph="/// Initializes a new instance of the &lt;see cref=&quot;SnowplowTracker.Storage.EventStore&quot;/&gt; class. ... " />
+                <marker date="1561045453263" expanded="true" signature="3148:3377" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="3211:3285" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="3387:3498" ph="/// Opens a connection and create's the events tables if required. ... " />
+                <marker date="1561045453263" expanded="true" signature="3525:4554" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="3570:4544" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="3760:4530" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="4564:4667" ph="/// Closes the database connection if is currently active. ... " />
+                <marker date="1561045453263" expanded="true" signature="4695:4892" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="4739:4882" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="4937:5171" ph="/// Adds an event payload to the database. ... " />
+                <marker date="1561045453263" expanded="true" signature="5224:6353" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="5301:6248" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="5433:6234" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="5526:6216" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="6363:6574" ph="/// Deletes the event. ... " />
+                <marker date="1561045453263" expanded="true" signature="6617:7151" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="6694:7114" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="6779:7100" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="7161:7400" ph="/// Deletes all events from an array of row ids. ... " />
+                <marker date="1561045453263" expanded="true" signature="7451:8411" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="7528:8374" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="7613:8360" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="8421:8584" ph="/// Deletes all events. ... " />
+                <marker date="1561045453263" expanded="true" signature="8622:9132" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="8699:9095" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="8784:9081" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="9142:9280" ph="/// Gets the count of events in the database. ... " />
+                <marker date="1561045453263" expanded="true" signature="9316:10458" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="9388:10422" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="9473:10408" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="9613:10390" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="9679:10368" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="9755:10342" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="9925:10160" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="10197:10312" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="10468:10650" ph="/// Gets an event at a specific row id ... " />
+                <marker date="1561045453263" expanded="true" signature="10694:10950" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="10806:10866" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="10883:10940" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="10960:11088" ph="/// Gets all events in the database ... " />
+                <marker date="1561045453263" expanded="true" signature="11133:11199" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="11209:11442" ph="/// Gets a descending range of events from the database. ... " />
+                <marker date="1561045453263" expanded="true" signature="11501:11577" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="11587:11795" ph="/// Queries the database. ... " />
+                <marker date="1561045453263" expanded="true" signature="11853:13527" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="11953:13492" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="11987:13319" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="12080:13301" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="12233:13279" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="12391:13253" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="12475:13223" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="12655:13189" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="13355:13478" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="13561:13760" ph="/// Determines whether this database connection is open. ... " />
+                <marker date="1561045453263" expanded="true" signature="13797:14277" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="13845:13961" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="14038:14193" ph="{...}" />
+                <marker date="1561045453263" expanded="true" signature="14210:14267" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SnowplowTracker/Emitters/AbstractEmitter.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="39">
+              <caret line="159" column="21" lean-forward="true" selection-start-line="159" selection-start-column="21" selection-end-line="159" selection-end-column="21" />
+              <folding>
+                <marker date="1561130016572" expanded="true" signature="0:880" ph="/* AbstractEmitter.cs ... */" />
+                <marker date="1561130016572" expanded="true" signature="888:1088" ph="..." />
+                <marker date="1561130016572" expanded="true" signature="1125:13879" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="1177:13877" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="1746:1866" ph="/// Adds an event payload to the database. ... " />
+                <marker date="1561130016572" expanded="true" signature="1924:2312" ph="/// Starts the Emitter and the Event Consumer. ... " />
+                <marker date="1561130016572" expanded="true" signature="2350:2428" ph="/// Stops the Emitter and the Event Consumer. ... " />
+                <marker date="1561130016572" expanded="true" signature="2465:2633" ph="/// Gets whether the emitter is currently sending. ... " />
+                <marker date="1561130016572" expanded="true" signature="2699:2937" ph="/// From a range of event rows will construct a list of RequestResult objects ... " />
+                <marker date="1561130016572" expanded="true" signature="3009:3485" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="3157:3209" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="3398:3458" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="3491:3666" ph="/// Sends all events as GET requests on background threads ... " />
+                <marker date="1561130016572" expanded="true" signature="3761:4785" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="3810:4526" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="3939:4512" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="4558:4755" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="4791:4993" ph="/// Send all event rows as POST requests on background threads ... " />
+                <marker date="1561130016572" expanded="true" signature="5089:8230" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="5285:7969" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="5358:7603" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="5612:6377" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="6505:7330" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="7355:7585" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="7648:7955" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="8001:8200" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="8254:8571" ph="/// Gets a ready request containing a POST ... " />
+                <marker date="1561130016572" expanded="true" signature="8658:9157" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="9163:9475" ph="/// Gets a ready request containing a GET ... " />
+                <marker date="1561130016572" expanded="true" signature="9558:9931" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="9937:10178" ph="/// Gets the collector URI. ... " />
+                <marker date="1561130016572" expanded="true" signature="10274:10533" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="10539:10690" ph="/// Adds the sent time to a list of event payloads ... " />
+                <marker date="1561130016572" expanded="true" signature="10768:10941" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="10880:10937" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="10965:11072" ph="/// Sets the collector URI. ... " />
+                <marker date="1561130016572" expanded="true" signature="11120:11247" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="11253:11369" ph="/// Sets the http protocol. ... " />
+                <marker date="1561130016572" expanded="true" signature="11427:11562" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="11568:11678" ph="/// Sets the http method. ... " />
+                <marker date="1561130016572" expanded="true" signature="11730:11861" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="11867:12048" ph="/// Sets the send limit; this controls how many events are grabbed out of the database at anytime. ... " />
+                <marker date="1561130016572" expanded="true" signature="12091:12127" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="12133:12264" ph="/// Sets the byte limit for get requests. ... " />
+                <marker date="1561130016572" expanded="true" signature="12314:12356" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="12362:12496" ph="/// Sets the byte limit for post requests. ... " />
+                <marker date="1561130016572" expanded="true" signature="12548:12592" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="12616:12720" ph="/// Gets the collector URI. ... " />
+                <marker date="1561130016572" expanded="true" signature="12755:12789" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="12795:12899" ph="/// Gets the http protocol. ... " />
+                <marker date="1561130016572" expanded="true" signature="12940:12974" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="12980:13080" ph="/// Gets the http method. ... " />
+                <marker date="1561130016572" expanded="true" signature="13117:13149" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="13155:13253" ph="/// Gets the send limit. ... " />
+                <marker date="1561130016572" expanded="true" signature="13282:13313" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="13319:13438" ph="/// Gets the byte limit for get requests. ... " />
+                <marker date="1561130016572" expanded="true" signature="13471:13505" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="13511:13632" ph="/// Gets the byte limit for post requests. ... " />
+                <marker date="1561130016572" expanded="true" signature="13666:13701" ph="{...}" />
+                <marker date="1561130016572" expanded="true" signature="13705:13805" ph="/// Gets the event store. ... " />
+                <marker date="1561130016572" expanded="true" signature="13842:13874" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../UnityHTTP/Request.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-19">
+              <caret line="176" column="55" lean-forward="true" selection-start-line="176" selection-start-column="55" selection-end-line="176" selection-end-column="55" />
+              <folding>
+                <marker date="1561127490161" expanded="true" signature="0:768" ph="/* Request.cs ... */" />
+                <marker date="1561127490161" expanded="false" signature="776:1168" ph="..." />
+                <marker date="1561127490161" expanded="true" signature="1190:11616" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="1214:11614" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="2078:2294" ph="/// Initializes a new instance of the &lt;see cref=&quot;UnityHTTP.Request&quot;/&gt; class. ... " />
+                <marker date="1561127490161" expanded="true" signature="2345:2404" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="2408:2699" ph="/// Initializes a new instance of the &lt;see cref=&quot;UnityHTTP.Request&quot;/&gt; class. ... " />
+                <marker date="1561127490161" expanded="true" signature="2764:2869" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="2873:3049" ph="/// Adds a header to the HTTP Request. ... " />
+                <marker date="1561127490161" expanded="true" signature="3102:3275" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="3279:3439" ph="/// Gets a particular headers value. ... " />
+                <marker date="1561127490161" expanded="true" signature="3480:3599" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="3603:3712" ph="/// Gets the headers and their values. ... " />
+                <marker date="1561127490161" expanded="true" signature="3750:3962" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="3842:3940" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="3888:3935" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="3966:4126" ph="/// Gets the headers for a particular header name. ... " />
+                <marker date="1561127490161" expanded="true" signature="4174:4316" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="4320:4476" ph="/// Sets a new header into the header list. ... " />
+                <marker date="1561127490161" expanded="true" signature="4529:4760" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="4764:4865" ph="/// Responsible for sending the request and processing the response. ... " />
+                <marker date="1561127490161" expanded="true" signature="4895:7382" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="5003:6403" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="5064:6252" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="5085:5226" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="5168:5219" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="5398:5995" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="5481:5813" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="5611:5706" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="5727:5805" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="6054:6246" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="6271:6398" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="6347:6392" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="6424:6683" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="6816:6846" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="6887:6922" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="6952:7378" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="7386:7513" ph="/// Send the HTTP Request with the options set. ... " />
+                <marker date="1561127490161" expanded="true" signature="7587:8491" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="7699:7748" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="7845:7916" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="7963:8016" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="8063:8109" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="8184:8321" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="8346:8371" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="8516:8607" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="8611:8980" ph="/// Validates the server certificate. ... " />
+                <marker date="1561127490161" expanded="true" signature="9123:9325" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="9329:9467" ph="/// Writes the HTTP Request to the output stream. ... " />
+                <marker date="1561127490161" expanded="true" signature="9512:10300" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="9740:9968" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="9786:9963" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="10028:10046" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="10166:10296" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="10304:10527" ph="/// Gets information about the request and returns an Information String. ... " />
+                <marker date="1561127490161" expanded="true" signature="10632:11611" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="10978:11018" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="11296:11589" ph="{...}" />
+                <marker date="1561127490161" expanded="true" signature="11522:11584" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../UnityHTTP/Response.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="186" column="32" selection-start-line="186" selection-start-column="31" selection-end-line="186" selection-end-column="32" />
+              <folding>
+                <marker date="1552044099361" expanded="true" signature="0:769" ph="/* Response.cs ... */" />
+                <marker date="1552044099361" expanded="false" signature="777:971" ph="..." />
+                <marker date="1552044099361" expanded="true" signature="993:7534" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="1018:7532" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="1219:1329" ph="/// Initializes a new instance of the &lt;see cref=&quot;UnityHTTP.Response&quot;/&gt; class. ... " />
+                <marker date="1552044099361" expanded="true" signature="1390:1498" ph="/// Gets the bytes as a UTF8 encoded string. ... " />
+                <marker date="1552044099361" expanded="true" signature="1520:1646" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="1529:1642" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="1554:1577" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="1650:1750" ph="/// Gets the bytes as a Hashtable. ... " />
+                <marker date="1552044099361" expanded="true" signature="1777:2008" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="1786:2004" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="1811:1836" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="1959:1983" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="2014:2114" ph="/// Gets the bytes as an ArrayList. ... " />
+                <marker date="1552044099361" expanded="true" signature="2140:2379" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="2149:2375" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="2176:2201" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="2326:2352" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="2415:2546" ph="/// Adds a header. ... " />
+                <marker date="1552044099361" expanded="true" signature="2599:2772" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="2776:2868" ph="/// Gets the headers. ... " />
+                <marker date="1552044099361" expanded="true" signature="2906:3118" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="2998:3096" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="3044:3091" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="3122:3282" ph="/// Gets the headers for a particular header name. ... " />
+                <marker date="1552044099361" expanded="true" signature="3330:3463" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="3467:3623" ph="/// Gets a single header for a particular name. ... " />
+                <marker date="1552044099361" expanded="true" signature="3664:3815" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="3819:3951" ph="/// Reads the stream. ... " />
+                <marker date="1552044099361" expanded="true" signature="3993:4338" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="4044:4253" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="4095:4168" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="4204:4223" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="4342:4482" ph="/// Reads the key value. ... " />
+                <marker date="1552044099361" expanded="true" signature="4530:4859" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="4587:4610" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="4675:4700" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="4863:5014" ph="/// Reads from the input stream and procceses the response data. ... " />
+                <marker date="1552044099361" expanded="true" signature="5066:6989" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="5177:5232" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="5237:5380" ph="/* MemoryStream is a disposable ... */" />
+                <marker date="1552044099361" expanded="true" signature="5425:6985" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="5524:5687" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="5746:6337" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="5766:6132" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="5903:5926" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="5973:6039" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="6152:6325" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="6256:6279" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="6401:6473" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="6480:6513" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="6634:6676" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="6740:6829" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="6895:6932" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="6932:6980" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="6993:7152" ph="/// Uns the zip. ... " />
+                <marker date="1552044099361" expanded="true" signature="7196:7529" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="7340:7500" ph="{...}" />
+                <marker date="1552044099361" expanded="true" signature="7453:7495" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -220,16 +510,48 @@
     <findStrings>
       <find>open</find>
       <find>read</find>
+      <find>HttpPost2</find>
+      <find>failure</find>
+      <find>c</find>
+      <find>eventStore.</find>
+      <find>eventStore.AddEvent</find>
+      <find>HttpPost</find>
+      <find>payloadQueue</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/ReferrerTest/Assets/At.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SnowplowTracker/Utils.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SnowplowTracker/Session.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BF8183A4-5D58-47D8-85EE-DFFD83533A7B/d2/52c23f20/WaitHandle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/23340A11-BB41-423A-A895-298BF881ED68/5b/70771e85/Socket.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BF8183A4-5D58-47D8-85EE-DFFD83533A7B/45/aa446e18/Stream.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BF8183A4-5D58-47D8-85EE-DFFD83533A7B/71/2e2b2f49/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UnityHTTP/Response.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Hexart/hexart/Assets/SDKs/PrismaTracker/PrismaTrackerManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SnowplowTracker/Events/AbstractEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UnityHTTP/Request.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BF8183A4-5D58-47D8-85EE-DFFD83533A7B/53/f2bfe7ca/Console.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UnityJSON/JSON.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SnowplowTracker/Events/Structured.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/ReferrerTest/Assets/At.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SnowplowTracker/Storage/EventStore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SnowplowTracker/Emitters/AsyncEmitter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SnowplowTracker/Emitters/AbstractEmitter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SnowplowTrackerTests/TestTracker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SnowplowTracker/Payloads/TrackerPayload.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UnityHTTP/Enums/RequestType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SnowplowTracker/Payloads/AbstractPayload.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SnowplowTracker/Tracker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SnowplowTracker/Requests/ReadyRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SnowplowTrackerTests/TestEmitter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SnowplowTracker/Log.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SnowplowTracker/Requests/RequestResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SnowplowTracker/Utils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SnowplowTrackerTests/TestSession.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SnowplowTracker/Subject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/23340A11-BB41-423A-A895-298BF881ED68/62/27181e57/TcpClient.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -241,6 +563,10 @@
         <option value="$PROJECT_DIR$/SnowplowTracker/Storage/EventStore.cs" />
         <option value="$PROJECT_DIR$/SnowplowTracker/Utils.cs" />
         <option value="$PROJECT_DIR$/SnowplowTracker/Session.cs" />
+        <option value="$PROJECT_DIR$/../UnityHTTP/Request.cs" />
+        <option value="$PROJECT_DIR$/SnowplowTracker/Emitters/AbstractEmitter.cs" />
+        <option value="$PROJECT_DIR$/SnowplowTracker/Emitters/AsyncEmitter.cs" />
+        <option value="$PROJECT_DIR$/SnowplowTracker/Tracker.cs" />
       </list>
     </option>
   </component>
@@ -256,6 +582,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -266,21 +594,13 @@
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="SnowplowTracker" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="SnowplowTracker" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="SnowplowTracker" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="SnowplowTracker" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Storage" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="UnityHTTP" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
-      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,7 +653,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3693000" />
+    <option name="totallyTimeSpent" value="8414000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,9 +666,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-127" y="-1057" width="1920" height="1057" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26464325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -367,7 +686,7 @@
       <window_info anchor="bottom" id="Unit Tests" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32953367" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="14" visible="true" weight="0.32953367" />
+      <window_info active="true" anchor="bottom" id="Build" order="14" visible="true" weight="0.32953367" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -420,20 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SnowplowTracker/Tracker.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="48" column="78" selection-start-line="48" selection-start-column="78" selection-end-line="48" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SnowplowTracker/Emitters/AsyncEmitter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/ReferrerTest/Assets/At.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -446,8 +751,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SnowplowTracker/Utils.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="159" column="28" lean-forward="true" selection-start-line="159" selection-start-column="28" selection-end-line="159" selection-end-column="28" />
+        <state relative-caret-position="2100">
+          <caret line="159" column="28" selection-start-line="159" selection-start-column="28" selection-end-line="159" selection-end-column="28" />
           <folding>
             <marker date="1552050111320" expanded="true" signature="0:861" ph="/* Utils.cs ... */" />
             <marker date="1552050111320" expanded="false" signature="869:1042" ph="..." />
@@ -496,85 +801,402 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SnowplowTracker/Requests/RequestResult.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <marker date="1552044099354" expanded="true" signature="0:878" ph="/* RequestResult.cs ... */" />
+            <marker date="1552044099354" expanded="false" signature="886:985" ph="..." />
+            <marker date="1552044099354" expanded="true" signature="1022:1477" ph="{...}" />
+            <marker date="1552044099354" expanded="true" signature="1052:1475" ph="{...}" />
+            <marker date="1552044099354" expanded="true" signature="1110:1359" ph="/// Initializes a new instance of the &lt;see cref=&quot;SnowplowTracker.Requests.RequestResult&quot;/&gt; class. ... " />
+            <marker date="1552044099354" expanded="true" signature="1415:1472" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../UnityHTTP/Response.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="186" column="32" selection-start-line="186" selection-start-column="31" selection-end-line="186" selection-end-column="32" />
+          <folding>
+            <marker date="1552044099361" expanded="true" signature="0:769" ph="/* Response.cs ... */" />
+            <marker date="1552044099361" expanded="false" signature="777:971" ph="..." />
+            <marker date="1552044099361" expanded="true" signature="993:7534" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="1018:7532" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="1219:1329" ph="/// Initializes a new instance of the &lt;see cref=&quot;UnityHTTP.Response&quot;/&gt; class. ... " />
+            <marker date="1552044099361" expanded="true" signature="1390:1498" ph="/// Gets the bytes as a UTF8 encoded string. ... " />
+            <marker date="1552044099361" expanded="true" signature="1520:1646" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="1529:1642" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="1554:1577" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="1650:1750" ph="/// Gets the bytes as a Hashtable. ... " />
+            <marker date="1552044099361" expanded="true" signature="1777:2008" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="1786:2004" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="1811:1836" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="1959:1983" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="2014:2114" ph="/// Gets the bytes as an ArrayList. ... " />
+            <marker date="1552044099361" expanded="true" signature="2140:2379" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="2149:2375" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="2176:2201" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="2326:2352" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="2415:2546" ph="/// Adds a header. ... " />
+            <marker date="1552044099361" expanded="true" signature="2599:2772" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="2776:2868" ph="/// Gets the headers. ... " />
+            <marker date="1552044099361" expanded="true" signature="2906:3118" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="2998:3096" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="3044:3091" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="3122:3282" ph="/// Gets the headers for a particular header name. ... " />
+            <marker date="1552044099361" expanded="true" signature="3330:3463" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="3467:3623" ph="/// Gets a single header for a particular name. ... " />
+            <marker date="1552044099361" expanded="true" signature="3664:3815" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="3819:3951" ph="/// Reads the stream. ... " />
+            <marker date="1552044099361" expanded="true" signature="3993:4338" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="4044:4253" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="4095:4168" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="4204:4223" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="4342:4482" ph="/// Reads the key value. ... " />
+            <marker date="1552044099361" expanded="true" signature="4530:4859" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="4587:4610" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="4675:4700" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="4863:5014" ph="/// Reads from the input stream and procceses the response data. ... " />
+            <marker date="1552044099361" expanded="true" signature="5066:6989" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="5177:5232" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="5237:5380" ph="/* MemoryStream is a disposable ... */" />
+            <marker date="1552044099361" expanded="true" signature="5425:6985" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="5524:5687" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="5746:6337" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="5766:6132" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="5903:5926" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="5973:6039" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="6152:6325" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="6256:6279" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="6401:6473" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="6480:6513" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="6634:6676" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="6740:6829" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="6895:6932" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="6932:6980" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="6993:7152" ph="/// Uns the zip. ... " />
+            <marker date="1552044099361" expanded="true" signature="7196:7529" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="7340:7500" ph="{...}" />
+            <marker date="1552044099361" expanded="true" signature="7453:7495" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../UnityHTTP/Request.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="176" column="55" lean-forward="true" selection-start-line="176" selection-start-column="55" selection-end-line="176" selection-end-column="55" />
+          <folding>
+            <marker date="1561127490161" expanded="true" signature="0:768" ph="/* Request.cs ... */" />
+            <marker date="1561127490161" expanded="false" signature="776:1168" ph="..." />
+            <marker date="1561127490161" expanded="true" signature="1190:11616" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="1214:11614" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="2078:2294" ph="/// Initializes a new instance of the &lt;see cref=&quot;UnityHTTP.Request&quot;/&gt; class. ... " />
+            <marker date="1561127490161" expanded="true" signature="2345:2404" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="2408:2699" ph="/// Initializes a new instance of the &lt;see cref=&quot;UnityHTTP.Request&quot;/&gt; class. ... " />
+            <marker date="1561127490161" expanded="true" signature="2764:2869" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="2873:3049" ph="/// Adds a header to the HTTP Request. ... " />
+            <marker date="1561127490161" expanded="true" signature="3102:3275" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="3279:3439" ph="/// Gets a particular headers value. ... " />
+            <marker date="1561127490161" expanded="true" signature="3480:3599" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="3603:3712" ph="/// Gets the headers and their values. ... " />
+            <marker date="1561127490161" expanded="true" signature="3750:3962" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="3842:3940" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="3888:3935" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="3966:4126" ph="/// Gets the headers for a particular header name. ... " />
+            <marker date="1561127490161" expanded="true" signature="4174:4316" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="4320:4476" ph="/// Sets a new header into the header list. ... " />
+            <marker date="1561127490161" expanded="true" signature="4529:4760" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="4764:4865" ph="/// Responsible for sending the request and processing the response. ... " />
+            <marker date="1561127490161" expanded="true" signature="4895:7382" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="5003:6403" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="5064:6252" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="5085:5226" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="5168:5219" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="5398:5995" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="5481:5813" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="5611:5706" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="5727:5805" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="6054:6246" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="6271:6398" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="6347:6392" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="6424:6683" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="6816:6846" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="6887:6922" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="6952:7378" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="7386:7513" ph="/// Send the HTTP Request with the options set. ... " />
+            <marker date="1561127490161" expanded="true" signature="7587:8491" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="7699:7748" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="7845:7916" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="7963:8016" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="8063:8109" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="8184:8321" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="8346:8371" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="8516:8607" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="8611:8980" ph="/// Validates the server certificate. ... " />
+            <marker date="1561127490161" expanded="true" signature="9123:9325" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="9329:9467" ph="/// Writes the HTTP Request to the output stream. ... " />
+            <marker date="1561127490161" expanded="true" signature="9512:10300" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="9740:9968" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="9786:9963" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="10028:10046" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="10166:10296" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="10304:10527" ph="/// Gets information about the request and returns an Information String. ... " />
+            <marker date="1561127490161" expanded="true" signature="10632:11611" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="10978:11018" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="11296:11589" ph="{...}" />
+            <marker date="1561127490161" expanded="true" signature="11522:11584" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SnowplowTracker/Storage/EventStore.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="117">
+          <caret line="140" column="44" selection-start-line="140" selection-start-column="44" selection-end-line="140" selection-end-column="44" />
           <folding>
-            <marker date="1552044099354" expanded="true" signature="0:874" ph="/* EventStore.cs ... */" />
-            <marker date="1552044099354" expanded="false" signature="882:1066" ph="..." />
-            <marker date="1552044099354" expanded="true" signature="1101:14285" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="1131:14283" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="2542:2680" ph="/// Initializes a new instance of the &lt;see cref=&quot;SnowplowTracker.Storage.EventStore&quot;/&gt; class. ... " />
-            <marker date="1552044099354" expanded="true" signature="2708:2913" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="2757:2883" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="2923:3101" ph="/// Initializes a new instance of the &lt;see cref=&quot;SnowplowTracker.Storage.EventStore&quot;/&gt; class. ... " />
-            <marker date="1552044099354" expanded="true" signature="3148:3377" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="3211:3285" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="3387:3498" ph="/// Opens a connection and create's the events tables if required. ... " />
-            <marker date="1552044099354" expanded="true" signature="3525:4554" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="3570:4544" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="3760:4530" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="4564:4667" ph="/// Closes the database connection if is currently active. ... " />
-            <marker date="1552044099354" expanded="true" signature="4695:4892" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="4739:4882" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="4937:5171" ph="/// Adds an event payload to the database. ... " />
-            <marker date="1552044099354" expanded="true" signature="5224:6353" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="5301:6248" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="5433:6234" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="5526:6216" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="6363:6574" ph="/// Deletes the event. ... " />
-            <marker date="1552044099354" expanded="true" signature="6617:7151" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="6694:7114" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="6779:7100" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="7161:7400" ph="/// Deletes all events from an array of row ids. ... " />
-            <marker date="1552044099354" expanded="true" signature="7451:8411" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="7528:8374" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="7613:8360" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="8421:8584" ph="/// Deletes all events. ... " />
-            <marker date="1552044099354" expanded="true" signature="8622:9132" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="8699:9095" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="8784:9081" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="9142:9280" ph="/// Gets the count of events in the database. ... " />
-            <marker date="1552044099354" expanded="true" signature="9316:10458" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="9388:10422" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="9473:10408" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="9613:10390" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="9679:10368" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="9755:10342" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="9925:10160" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="10197:10312" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="10468:10650" ph="/// Gets an event at a specific row id ... " />
-            <marker date="1552044099354" expanded="true" signature="10694:10950" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="10806:10866" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="10883:10940" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="10960:11088" ph="/// Gets all events in the database ... " />
-            <marker date="1552044099354" expanded="true" signature="11133:11199" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="11209:11442" ph="/// Gets a descending range of events from the database. ... " />
-            <marker date="1552044099354" expanded="true" signature="11501:11577" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="11587:11795" ph="/// Queries the database. ... " />
-            <marker date="1552044099354" expanded="true" signature="11853:13527" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="11953:13492" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="11987:13319" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="12080:13301" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="12233:13279" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="12391:13253" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="12475:13223" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="12655:13189" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="13355:13478" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="13561:13760" ph="/// Determines whether this database connection is open. ... " />
-            <marker date="1552044099354" expanded="true" signature="13797:14277" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="13845:13961" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="14038:14193" ph="{...}" />
-            <marker date="1552044099354" expanded="true" signature="14210:14267" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="0:874" ph="/* EventStore.cs ... */" />
+            <marker date="1561045453263" expanded="false" signature="882:1066" ph="..." />
+            <marker date="1561045453263" expanded="true" signature="1101:14285" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="1131:14283" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="2542:2680" ph="/// Initializes a new instance of the &lt;see cref=&quot;SnowplowTracker.Storage.EventStore&quot;/&gt; class. ... " />
+            <marker date="1561045453263" expanded="true" signature="2708:2913" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="2757:2883" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="2923:3101" ph="/// Initializes a new instance of the &lt;see cref=&quot;SnowplowTracker.Storage.EventStore&quot;/&gt; class. ... " />
+            <marker date="1561045453263" expanded="true" signature="3148:3377" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="3211:3285" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="3387:3498" ph="/// Opens a connection and create's the events tables if required. ... " />
+            <marker date="1561045453263" expanded="true" signature="3525:4554" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="3570:4544" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="3760:4530" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="4564:4667" ph="/// Closes the database connection if is currently active. ... " />
+            <marker date="1561045453263" expanded="true" signature="4695:4892" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="4739:4882" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="4937:5171" ph="/// Adds an event payload to the database. ... " />
+            <marker date="1561045453263" expanded="true" signature="5224:6353" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="5301:6248" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="5433:6234" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="5526:6216" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="6363:6574" ph="/// Deletes the event. ... " />
+            <marker date="1561045453263" expanded="true" signature="6617:7151" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="6694:7114" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="6779:7100" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="7161:7400" ph="/// Deletes all events from an array of row ids. ... " />
+            <marker date="1561045453263" expanded="true" signature="7451:8411" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="7528:8374" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="7613:8360" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="8421:8584" ph="/// Deletes all events. ... " />
+            <marker date="1561045453263" expanded="true" signature="8622:9132" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="8699:9095" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="8784:9081" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="9142:9280" ph="/// Gets the count of events in the database. ... " />
+            <marker date="1561045453263" expanded="true" signature="9316:10458" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="9388:10422" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="9473:10408" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="9613:10390" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="9679:10368" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="9755:10342" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="9925:10160" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="10197:10312" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="10468:10650" ph="/// Gets an event at a specific row id ... " />
+            <marker date="1561045453263" expanded="true" signature="10694:10950" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="10806:10866" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="10883:10940" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="10960:11088" ph="/// Gets all events in the database ... " />
+            <marker date="1561045453263" expanded="true" signature="11133:11199" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="11209:11442" ph="/// Gets a descending range of events from the database. ... " />
+            <marker date="1561045453263" expanded="true" signature="11501:11577" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="11587:11795" ph="/// Queries the database. ... " />
+            <marker date="1561045453263" expanded="true" signature="11853:13527" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="11953:13492" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="11987:13319" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="12080:13301" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="12233:13279" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="12391:13253" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="12475:13223" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="12655:13189" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="13355:13478" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="13561:13760" ph="/// Determines whether this database connection is open. ... " />
+            <marker date="1561045453263" expanded="true" signature="13797:14277" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="13845:13961" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="14038:14193" ph="{...}" />
+            <marker date="1561045453263" expanded="true" signature="14210:14267" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SnowplowTracker/Log.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+          <folding>
+            <marker date="1552044099350" expanded="true" signature="0:859" ph="/* Log.cs ... */" />
+            <marker date="1552044099350" expanded="false" signature="867:893" ph="..." />
+            <marker date="1552044099350" expanded="true" signature="921:2482" ph="{...}" />
+            <marker date="1552044099350" expanded="true" signature="957:2480" ph="{...}" />
+            <marker date="1552044099350" expanded="true" signature="1033:1189" ph="/// Writes a line either to the console or to the Unity debugger. ... " />
+            <marker date="1552044099350" expanded="true" signature="1233:1384" ph="{...}" />
+            <marker date="1552044099350" expanded="true" signature="1265:1380" ph="{...}" />
+            <marker date="1552044099350" expanded="true" signature="1388:1544" ph="/// Writes a line either to the console or to the Unity debugger. ... " />
+            <marker date="1552044099350" expanded="true" signature="1588:1728" ph="{...}" />
+            <marker date="1552044099350" expanded="true" signature="1620:1724" ph="{...}" />
+            <marker date="1552044099350" expanded="true" signature="1732:1888" ph="/// Writes a line either to the console or to the Unity debugger. ... " />
+            <marker date="1552044099350" expanded="true" signature="1934:2074" ph="{...}" />
+            <marker date="1552044099350" expanded="true" signature="1966:2070" ph="{...}" />
+            <marker date="1552044099350" expanded="true" signature="2078:2132" ph="/// Turns logging on. ... " />
+            <marker date="1552044099350" expanded="true" signature="2159:2183" ph="{...}" />
+            <marker date="1552044099350" expanded="true" signature="2187:2242" ph="/// Turns logging off. ... " />
+            <marker date="1552044099350" expanded="true" signature="2270:2295" ph="{...}" />
+            <marker date="1552044099350" expanded="true" signature="2299:2403" ph="/// Sets the log level. ... " />
+            <marker date="1552044099350" expanded="true" signature="2451:2477" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SnowplowTracker/Requests/ReadyRequest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="29" />
+          <folding>
+            <marker date="1552044099353" expanded="true" signature="0:875" ph="/* GetRequest.cs ... */" />
+            <marker date="1552044099353" expanded="false" signature="883:1058" ph="..." />
+            <marker date="1552044099353" expanded="true" signature="1095:2544" ph="{...}" />
+            <marker date="1552044099353" expanded="true" signature="1124:2542" ph="{...}" />
+            <marker date="1552044099353" expanded="true" signature="1264:1559" ph="/// Initializes a new instance of the &lt;see cref=&quot;SnowplowTracker.Requests.ReadyRequest&quot;/&gt; class. ... " />
+            <marker date="1552044099353" expanded="true" signature="1676:1797" ph="{...}" />
+            <marker date="1552044099353" expanded="true" signature="1801:1883" ph="/// Send the request with the callback mechanism. ... " />
+            <marker date="1552044099353" expanded="true" signature="1905:1973" ph="{...}" />
+            <marker date="1552044099353" expanded="true" signature="1977:2094" ph="/// Waits for the result to be ready and sleeps for intervals of 1ms whilst waiting. ... " />
+            <marker date="1552044099353" expanded="true" signature="2151:2539" ph="{...}" />
+            <marker date="1552044099353" expanded="true" signature="2175:2244" ph="{...}" />
+            <marker date="1552044099353" expanded="true" signature="2285:2452" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SnowplowTracker/Payloads/AbstractPayload.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="26" column="52" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="52" />
+          <folding>
+            <marker date="1552044099350" expanded="true" signature="0:880" ph="/* AbstractPayload.cs ... */" />
+            <marker date="1552044099350" expanded="false" signature="888:929" ph="..." />
+            <marker date="1552044099350" expanded="true" signature="966:1761" ph="{...}" />
+            <marker date="1552044099350" expanded="true" signature="1018:1759" ph="{...}" />
+            <marker date="1552044099350" expanded="true" signature="1107:1219" ph="/// Gets the dictionary within the Payload ... " />
+            <marker date="1552044099350" expanded="true" signature="1272:1296" ph="{...}" />
+            <marker date="1552044099350" expanded="true" signature="1300:1438" ph="/// Gets the byte size of the key-value pairs in the payload ... " />
+            <marker date="1552044099350" expanded="true" signature="1467:1517" ph="{...}" />
+            <marker date="1552044099350" expanded="true" signature="1521:1670" ph="/// Returns a JSON string representing the payload. ... " />
+            <marker date="1552044099350" expanded="true" signature="1707:1756" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/23340A11-BB41-423A-A895-298BF881ED68/62/27181e57/TcpClient.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6225">
+          <caret line="417" column="26" selection-start-line="417" selection-start-column="26" selection-end-line="417" selection-end-column="26" />
+          <folding>
+            <marker date="1561049316856" expanded="true" signature="0:308" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1561049316856" expanded="true" signature="428:13331" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="469:13329" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="712:998" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="1063:1149" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="1193:1582" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="1631:2301" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="1885:1939" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="1966:2258" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="2076:2113" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="2126:2250" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="2348:2498" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="2524:2661" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="2540:2592" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="2602:2655" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="2688:2813" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="2704:2750" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="2760:2807" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="2839:2923" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="2855:2917" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="2950:3034" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="2966:3028" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="3071:3248" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="3087:3159" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="3169:3242" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="3300:5952" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="3923:5449" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="3972:4266" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="4319:5441" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="4343:5202" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="4400:4990" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="4504:4665" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="4705:4866" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="5046:5190" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="5233:5431" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="5476:5650" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="5664:5909" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="5700:5901" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="6006:6438" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="6484:6830" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="6890:7050" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="7255:7462" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="7673:7883" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="8098:8310" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="8364:8521" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="8654:8874" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="9001:9212" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="9349:9575" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="9613:10081" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="10106:10214" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="10266:11129" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="10337:10392" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="10403:11123" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="10434:11043" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="10546:10604" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="10619:10987" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="10704:10975" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="10736:10830" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="10852:10961" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="11156:11194" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="11212:11251" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="11285:11544" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="11301:11410" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="11420:11538" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="11575:11828" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="11591:11697" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="11707:11822" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="11859:12120" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="11875:11985" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="11995:12114" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="12148:12403" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="12164:12271" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="12281:12397" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="12440:12718" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="12456:12582" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="12592:12712" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="12743:12993" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="12759:12862" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="12872:12987" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="13024:13149" ph="{...}" />
+            <marker date="1561049316856" expanded="true" signature="13240:13325" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BF8183A4-5D58-47D8-85EE-DFFD83533A7B/71/2e2b2f49/List`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SnowplowTracker/Session.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="55" column="62" lean-forward="true" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
+        <state relative-caret-position="283">
+          <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
           <folding>
             <marker date="1552050108224" expanded="true" signature="0:863" ph="/* Session.cs ... */" />
             <marker date="1552050108224" expanded="false" signature="871:1038" ph="..." />
@@ -622,6 +1244,225 @@
             <marker date="1552050108224" expanded="true" signature="7038:7084" ph="{...}" />
             <marker date="1552050108224" expanded="true" signature="7088:7150" ph="/// Updates the session dict. ... " />
             <marker date="1552050108224" expanded="true" signature="7186:7496" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SnowplowTracker/Payloads/TrackerPayload.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <marker date="1552044099353" expanded="true" signature="0:879" ph="/* TrackerPayload.cs ... */" />
+            <marker date="1552044099353" expanded="false" signature="887:954" ph="..." />
+            <marker date="1552044099353" expanded="true" signature="991:2878" ph="{...}" />
+            <marker date="1552044099353" expanded="true" signature="1040:2876" ph="{...}" />
+            <marker date="1552044099353" expanded="true" signature="1045:1192" ph="/// Add the specified key and value. ... " />
+            <marker date="1552044099353" expanded="true" signature="1237:1352" ph="{...}" />
+            <marker date="1552044099353" expanded="true" signature="1304:1322" ph="{...}" />
+            <marker date="1552044099353" expanded="true" signature="1356:1486" ph="/// Adds a dictionary of key-value pairs ... " />
+            <marker date="1552044099353" expanded="true" signature="1548:1702" ph="{...}" />
+            <marker date="1552044099353" expanded="true" signature="1577:1595" ph="{...}" />
+            <marker date="1552044099353" expanded="true" signature="1658:1698" ph="{...}" />
+            <marker date="1552044099353" expanded="true" signature="1706:1836" ph="/// Adds a dictionary of key-value pairs ... " />
+            <marker date="1552044099353" expanded="true" signature="1898:2100" ph="{...}" />
+            <marker date="1552044099353" expanded="true" signature="1927:1945" ph="{...}" />
+            <marker date="1552044099353" expanded="true" signature="2008:2096" ph="{...}" />
+            <marker date="1552044099353" expanded="true" signature="2041:2091" ph="{...}" />
+            <marker date="1552044099353" expanded="true" signature="2104:2425" ph="/// Adds a json dictionary as an encoded string ... " />
+            <marker date="1552044099353" expanded="true" signature="2548:2873" ph="{...}" />
+            <marker date="1552044099353" expanded="true" signature="2598:2616" ph="{...}" />
+            <marker date="1552044099353" expanded="true" signature="2718:2869" ph="{...}" />
+            <marker date="1552044099353" expanded="true" signature="2742:2812" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SnowplowTracker/Emitters/AbstractEmitter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="159" column="21" lean-forward="true" selection-start-line="159" selection-start-column="21" selection-end-line="159" selection-end-column="21" />
+          <folding>
+            <marker date="1561130016572" expanded="true" signature="0:880" ph="/* AbstractEmitter.cs ... */" />
+            <marker date="1561130016572" expanded="true" signature="888:1088" ph="..." />
+            <marker date="1561130016572" expanded="true" signature="1125:13879" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="1177:13877" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="1746:1866" ph="/// Adds an event payload to the database. ... " />
+            <marker date="1561130016572" expanded="true" signature="1924:2312" ph="/// Starts the Emitter and the Event Consumer. ... " />
+            <marker date="1561130016572" expanded="true" signature="2350:2428" ph="/// Stops the Emitter and the Event Consumer. ... " />
+            <marker date="1561130016572" expanded="true" signature="2465:2633" ph="/// Gets whether the emitter is currently sending. ... " />
+            <marker date="1561130016572" expanded="true" signature="2699:2937" ph="/// From a range of event rows will construct a list of RequestResult objects ... " />
+            <marker date="1561130016572" expanded="true" signature="3009:3485" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="3157:3209" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="3398:3458" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="3491:3666" ph="/// Sends all events as GET requests on background threads ... " />
+            <marker date="1561130016572" expanded="true" signature="3761:4785" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="3810:4526" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="3939:4512" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="4558:4755" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="4791:4993" ph="/// Send all event rows as POST requests on background threads ... " />
+            <marker date="1561130016572" expanded="true" signature="5089:8230" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="5285:7969" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="5358:7603" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="5612:6377" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="6505:7330" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="7355:7585" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="7648:7955" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="8001:8200" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="8254:8571" ph="/// Gets a ready request containing a POST ... " />
+            <marker date="1561130016572" expanded="true" signature="8658:9157" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="9163:9475" ph="/// Gets a ready request containing a GET ... " />
+            <marker date="1561130016572" expanded="true" signature="9558:9931" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="9937:10178" ph="/// Gets the collector URI. ... " />
+            <marker date="1561130016572" expanded="true" signature="10274:10533" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="10539:10690" ph="/// Adds the sent time to a list of event payloads ... " />
+            <marker date="1561130016572" expanded="true" signature="10768:10941" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="10880:10937" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="10965:11072" ph="/// Sets the collector URI. ... " />
+            <marker date="1561130016572" expanded="true" signature="11120:11247" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="11253:11369" ph="/// Sets the http protocol. ... " />
+            <marker date="1561130016572" expanded="true" signature="11427:11562" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="11568:11678" ph="/// Sets the http method. ... " />
+            <marker date="1561130016572" expanded="true" signature="11730:11861" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="11867:12048" ph="/// Sets the send limit; this controls how many events are grabbed out of the database at anytime. ... " />
+            <marker date="1561130016572" expanded="true" signature="12091:12127" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="12133:12264" ph="/// Sets the byte limit for get requests. ... " />
+            <marker date="1561130016572" expanded="true" signature="12314:12356" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="12362:12496" ph="/// Sets the byte limit for post requests. ... " />
+            <marker date="1561130016572" expanded="true" signature="12548:12592" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="12616:12720" ph="/// Gets the collector URI. ... " />
+            <marker date="1561130016572" expanded="true" signature="12755:12789" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="12795:12899" ph="/// Gets the http protocol. ... " />
+            <marker date="1561130016572" expanded="true" signature="12940:12974" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="12980:13080" ph="/// Gets the http method. ... " />
+            <marker date="1561130016572" expanded="true" signature="13117:13149" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="13155:13253" ph="/// Gets the send limit. ... " />
+            <marker date="1561130016572" expanded="true" signature="13282:13313" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="13319:13438" ph="/// Gets the byte limit for get requests. ... " />
+            <marker date="1561130016572" expanded="true" signature="13471:13505" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="13511:13632" ph="/// Gets the byte limit for post requests. ... " />
+            <marker date="1561130016572" expanded="true" signature="13666:13701" ph="{...}" />
+            <marker date="1561130016572" expanded="true" signature="13705:13805" ph="/// Gets the event store. ... " />
+            <marker date="1561130016572" expanded="true" signature="13842:13874" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SnowplowTracker/Emitters/AsyncEmitter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="215" column="21" lean-forward="true" selection-start-line="215" selection-start-column="21" selection-end-line="215" selection-end-column="21" />
+          <folding>
+            <marker date="1561130029417" expanded="true" signature="0:877" ph="/* AsyncEmitter.cs ... */" />
+            <marker date="1561130029417" expanded="true" signature="885:1243" ph="..." />
+            <marker date="1561130029417" expanded="true" signature="1280:8544" ph="{...}" />
+            <marker date="1561130029417" expanded="true" signature="1327:8542" ph="{...}" />
+            <marker date="1561130029417" expanded="true" signature="1696:2260" ph="/// Initializes a new instance of the &lt;see cref=&quot;SnowplowTracker.Emitter&quot;/&gt; class. ... " />
+            <marker date="1561130029417" expanded="true" signature="2481:2918" ph="{...}" />
+            <marker date="1561130029417" expanded="true" signature="2928:3638" ph="/// Initializes a new instance of the &lt;see cref=&quot;SnowplowTracker.Emitter&quot;/&gt; class. ... " />
+            <marker date="1561130029417" expanded="true" signature="3894:4470" ph="{...}" />
+            <marker date="1561130029417" expanded="true" signature="4480:4618" ph="/// Adds an event payload to the database. ... " />
+            <marker date="1561130029417" expanded="true" signature="4676:4716" ph="{...}" />
+            <marker date="1561130029417" expanded="true" signature="4720:5108" ph="/// Starts the Emitter and the Event Consumer. ... " />
+            <marker date="1561130029417" expanded="true" signature="5140:5460" ph="{...}" />
+            <marker date="1561130029417" expanded="true" signature="5159:5456" ph="{...}" />
+            <marker date="1561130029417" expanded="true" signature="5466:5544" ph="/// Stops the Emitter and the Event Consumer. ... " />
+            <marker date="1561130029417" expanded="true" signature="5575:5809" ph="{...}" />
+            <marker date="1561130029417" expanded="true" signature="5593:5805" ph="{...}" />
+            <marker date="1561130029417" expanded="true" signature="5843:5947" ph="/// Consumes events from the event queue and adds them to the database. ... " />
+            <marker date="1561130029417" expanded="true" signature="5979:6396" ph="{...}" />
+            <marker date="1561130029417" expanded="true" signature="6057:6392" ph="{...}" />
+            <marker date="1561130029417" expanded="true" signature="6184:6264" ph="{...}" />
+            <marker date="1561130029417" expanded="true" signature="6401:6561" ph="/// Performs and orchestrates all sending of events from the database ... " />
+            <marker date="1561130029417" expanded="true" signature="6588:8284" ph="{...}" />
+            <marker date="1561130029417" expanded="true" signature="6658:8280" ph="{...}" />
+            <marker date="1561130029417" expanded="true" signature="6765:6803" ph="{...}" />
+            <marker date="1561130029417" expanded="true" signature="6878:6952" ph="{...}" />
+            <marker date="1561130029417" expanded="true" signature="7030:7159" ph="{...}" />
+            <marker date="1561130029417" expanded="true" signature="7207:8275" ph="{...}" />
+            <marker date="1561130029417" expanded="true" signature="7503:7687" ph="{...}" />
+            <marker date="1561130029417" expanded="true" signature="7531:7626" ph="{...}" />
+            <marker date="1561130029417" expanded="true" signature="7715:7847" ph="{...}" />
+            <marker date="1561130029417" expanded="true" signature="8039:8175" ph="{...}" />
+            <marker date="1561130029417" expanded="true" signature="8306:8474" ph="/// Gets whether the emitter is currently sending. ... " />
+            <marker date="1561130029417" expanded="true" signature="8510:8539" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SnowplowTracker/Tracker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="206" column="13" selection-start-line="206" selection-start-column="13" selection-end-line="206" selection-end-column="13" />
+          <folding>
+            <marker date="1561130231239" expanded="true" signature="0:863" ph="/* Tracker.cs ... */" />
+            <marker date="1561130231239" expanded="false" signature="871:1157" ph="..." />
+            <marker date="1561130231239" expanded="true" signature="1204:11243" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="1228:11241" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="1510:2037" ph="/// Initializes a new instance of the &lt;see cref=&quot;SnowplowTracker.Tracker&quot;/&gt; class. ... " />
+            <marker date="1561130231239" expanded="true" signature="2238:2783" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="2712:2743" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="2821:3075" ph="/// Starts all background services for processing events: ... " />
+            <marker date="1561130231239" expanded="true" signature="3111:3221" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="3183:3217" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="3225:3462" ph="/// Stops all event tracking and background services: ... " />
+            <marker date="1561130231239" expanded="true" signature="3497:3606" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="3569:3602" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="3635:3856" ph="/// Track the specified event. ... " />
+            <marker date="1561130231239" expanded="true" signature="3894:4123" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="3920:3938" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="3959:3994" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="4127:4232" ph="/// Processes the event. ... " />
+            <marker date="1561130231239" expanded="true" signature="4278:5764" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="4483:4572" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="4621:5156" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="4866:5151" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="5197:5388" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="5454:5760" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="5768:5979" ph="/// Adds the tracker payload to the emitter. ... " />
+            <marker date="1561130231239" expanded="true" signature="6078:7557" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="6417:6483" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="6598:6955" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="6648:6950" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="6782:6894" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="6815:6887" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="6904:6944" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="7042:7106" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="7194:7378" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="7561:7752" ph="/// Gets the final context. ... " />
+            <marker date="1561130231239" expanded="true" signature="7823:8102" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="7958:8022" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="8124:8336" ph="/// Sets the emitter. NOTE this is a blocking function as the emitter will not be replaced until it is no longer ... " />
+            <marker date="1561130231239" expanded="true" signature="8380:8696" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="8406:8692" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="8551:8581" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="8700:8799" ph="/// Sets the subject. ... " />
+            <marker date="1561130231239" expanded="true" signature="8842:8874" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="8878:8977" ph="/// Sets the session. ... " />
+            <marker date="1561130231239" expanded="true" signature="9020:9120" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="9051:9089" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="9124:9252" ph="/// Sets the tracker namespace. ... " />
+            <marker date="1561130231239" expanded="true" signature="9312:9362" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="9366:9477" ph="/// Sets the app identifier. ... " />
+            <marker date="1561130231239" expanded="true" signature="9515:9543" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="9547:9649" ph="/// Sets the platform. ... " />
+            <marker date="1561130231239" expanded="true" signature="9702:9736" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="9740:9887" ph="/// Sets the base64 encoded truth. ... " />
+            <marker date="1561130231239" expanded="true" signature="9939:9983" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="10005:10097" ph="/// Gets the emitter. ... " />
+            <marker date="1561130231239" expanded="true" signature="10129:10158" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="10162:10261" ph="/// Gets the subject object. ... " />
+            <marker date="1561130231239" expanded="true" signature="10292:10321" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="10325:10424" ph="/// Gets the session object. ... " />
+            <marker date="1561130231239" expanded="true" signature="10455:10484" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="10488:10600" ph="/// Gets the tracker namespace. ... " />
+            <marker date="1561130231239" expanded="true" signature="10639:10677" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="10681:10787" ph="/// Gets the app identifier. ... " />
+            <marker date="1561130231239" expanded="true" signature="10815:10842" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="10846:10940" ph="/// Gets the platform. ... " />
+            <marker date="1561130231239" expanded="true" signature="10980:11010" ph="{...}" />
+            <marker date="1561130231239" expanded="true" signature="11014:11169" ph="/// Gets the base64 encoded value. ... " />
+            <marker date="1561130231239" expanded="true" signature="11203:11238" ph="{...}" />
           </folding>
         </state>
       </provider>
