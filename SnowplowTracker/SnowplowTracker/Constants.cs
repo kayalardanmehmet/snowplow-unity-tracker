@@ -32,6 +32,7 @@ namespace SnowplowTracker {
 		public readonly static string SCHEMA_SESSION        = "iglu:com.snowplowanalytics.snowplow/client_session/jsonschema/1-0-1";
 		public readonly static string SCHEMA_DESKTOP        = "iglu:com.snowplowanalytics.snowplow/desktop_context/jsonschema/1-0-0";
 		public readonly static string SCHEMA_MOBILE         = "iglu:com.snowplowanalytics.snowplow/mobile_context/jsonschema/1-0-1";
+		public readonly static string SCHEMA_APPLICATION    = "iglu:com.snowplowanalytics.mobile/application/jsonschema/1-0-0";
 		public readonly static string SCHEMA_GEO_LOCATION   = "iglu:com.snowplowanalytics.snowplow/geolocation_context/jsonschema/1-1-0";
 
 		// Event Types
@@ -59,6 +60,10 @@ namespace SnowplowTracker {
 		public readonly static string PLAT_OS_VERSION       = "osVersion";
 		public readonly static string PLAT_DEVICE_MANU      = "deviceManufacturer";
 		public readonly static string PLAT_DEVICE_MODEL     = "deviceModel";
+		
+		// Application Context
+		public readonly static string APP_VERSION      		= "version";
+		public readonly static string APP_BUILD		     	= "build";
 
 		// Desktop Context
 		public readonly static string DESKTOP_SERVICE_PACK  = "osServicePack";
