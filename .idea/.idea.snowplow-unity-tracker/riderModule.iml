@@ -3,12 +3,6 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../.." />
-<<<<<<< HEAD
-=======
-    <content url="file://$MODULE_DIR$/../../../SnowplowTrackerTests" />
->>>>>>> fix/duplicated-session-context
-    <content url="file://$MODULE_DIR$/../../../UnityHTTP" />
-    <content url="file://$MODULE_DIR$/../../../UnityJSON" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

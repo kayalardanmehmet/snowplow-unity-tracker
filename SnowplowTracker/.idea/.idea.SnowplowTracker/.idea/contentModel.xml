@@ -69,43 +69,6 @@
       </e>
       <e p="SnowplowTracker.sln" t="IncludeFlat" />
     </e>
-    <e p="$PROJECT_DIR$/../SnowplowTrackerTests" t="IncludeRecursive">
-      <e p="bin" t="ExcludeRecursive" />
-      <e p="Events" t="Include">
-        <e p="TestEcommerceTransaction.cs" t="Include" />
-        <e p="TestEcommerceTransactionItem.cs" t="Include" />
-        <e p="TestPageView.cs" t="Include" />
-        <e p="TestScreenView.cs" t="Include" />
-        <e p="TestStructured.cs" t="Include" />
-        <e p="TestTiming.cs" t="Include" />
-        <e p="TestUnstructured.cs" t="Include" />
-      </e>
-      <e p="obj" t="ExcludeRecursive" />
-      <e p="Payloads" t="Include">
-        <e p="Contexts" t="Include">
-          <e p="TestDesktopContext.cs" t="Include" />
-          <e p="TestGenericContext.cs" t="Include" />
-          <e p="TestGeoLocationContext.cs" t="Include" />
-          <e p="TestMobileContext.cs" t="Include" />
-          <e p="TestSessionContext.cs" t="Include" />
-        </e>
-        <e p="TestSelfDescribingJson.cs" t="Include" />
-        <e p="TestTrackerPayload.cs" t="Include" />
-      </e>
-      <e p="SnowplowTrackerTests.csproj" t="IncludeRecursive" />
-      <e p="Storage" t="Include">
-        <e p="TestEventStore.cs" t="Include" />
-      </e>
-      <e p="TestEmitter.cs" t="Include" />
-      <e p="TestHelpers" t="Include">
-        <e p="BaseEmitter.cs" t="Include" />
-      </e>
-      <e p="TestIntegration.cs" t="Include" />
-      <e p="TestSession.cs" t="Include" />
-      <e p="TestSubject.cs" t="Include" />
-      <e p="TestTracker.cs" t="Include" />
-      <e p="TestUtils.cs" t="Include" />
-    </e>
     <e p="$PROJECT_DIR$/../UnityHTTP" t="IncludeRecursive">
       <e p="bin" t="ExcludeRecursive" />
       <e p="Cache" t="Include">
